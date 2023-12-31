@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="sale.email_template_edi_sale" model="mail.template">
+            <field name="email_from">{{ user.email_formatted }}</field>
+        </record>
+
+    </data>
+</odoo>
